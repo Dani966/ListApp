@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"><![CDATA[
+    tools:context="com.example.danilocacace.lispapp.DettaglioPizzeria">
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/textIndirizzo2" />
+
+    <TextView
+        android:id="@+id/textIndirizzo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="63dp"
+        tools:layout_editor_absoluteX="105dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="66dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Numero: "
+        android:textAlignment="viewEnd"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        android:layout_marginRight="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="69dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="16dp"
+        android:text="Nome:"
+        android:textAlignment="viewEnd"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        android:layout_marginRight="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="66dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Indirizzo:"
+        android:textAlignment="viewEnd"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        android:layout_marginRight="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.22" />
+
+    <TextView
+        android:id="@+id/textNome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        tools:layout_editor_absoluteY="16dp" />
+
+</android.support.constraint.ConstraintLayout>
