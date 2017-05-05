@@ -21,7 +21,7 @@ public class DataStore {
         //Inserisco dei dati fittizzi per poter testare l'app e aggiungo alla lista
         Pizzeria A = new Pizzeria("ManiInFarina", "Via Alessandro", 3925580);
         Pizzeria B = new Pizzeria("HeraHora", "ViaBoh", 050456);
-        Pizzeria C = new Pizzeria("A Nonn", "Via Nessuna", 55160);
+        Pizzeria C = new Pizzeria("A Nonn", "Via Nessuna", 5510);
         pizzerie.add(A);
         pizzerie.add(B);
         pizzerie.add(C);
